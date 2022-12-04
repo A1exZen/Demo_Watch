@@ -1,0 +1,225 @@
+@import "_nullstyle";
+
+/*$color-1: blue; //переменная
+
+%tplborder {
+	//шаблон
+	border-bottom: 5px dashed red;
+}
+
+@mixin fontz($f) {
+	//класс с переменной
+	font-size: $f;
+}*/
+
+body {
+	font-family: "League Spartan";
+}
+
+.header {
+	display: flex;
+	width: 1920px;
+	height: 1080px;
+	background: #f8f8f8;
+	padding: 104px 240px 168px 133px;
+}
+.header_title {
+	font-size: 24px;
+	line-height: 50px;
+	font-weight: 300;
+	margin-bottom: 53px;
+}
+.header_name {
+	font-size: 250px;
+	line-height: 230px;
+	margin-bottom: 43 px;
+}
+.header_text {
+	font-weight: 300;
+	font-size: 32px;
+	line-height: 50px;
+	margin-bottom: 61px;
+}
+.href_buy {
+	display: flex;
+}
+.href {
+	margin-right: 40px;
+	width: 278px;
+	height: 82px;
+	color: rgb(255, 255, 255);
+	font-size: 32px;
+	line-height: 82px;
+	background-color: rgb(4, 4, 4);
+	text-align: center;
+	border-radius: 20px;
+	text-decoration: none;
+	transition: all 0.3s linear;
+}
+.href:hover {
+	background-color: rgb(28, 27, 27);
+	font-size: 35px;
+	box-shadow: 10px rgb(204, 204, 204);
+	text-shadow: 1px 1px 2px rgb(192, 192, 192);
+}
+
+.container{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+
+.text_price {
+	width: 143px;
+	height: 82px;
+	font-weight: 300;
+	font-size: 32px;
+	line-height: 82px;
+	background-color: f8f8f8;
+}
+.image {
+	display: block;
+	margin-left: 100px;
+}
+.popular-title {
+	width: 100%;
+	text-align: center;
+	margin-top: 43px;
+	font-size: 30px;
+	line-height: 45px;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+.models-title {
+	text-align: center;
+	font-size: 100px;
+	line-height: 81px;
+	font-weight: 400;
+	margin-bottom: 84px;
+}
+.item-wrapper {
+	background-color: #f8f8f8;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding-bottom: 100px;
+	h2 {
+		font-size: 32px;
+		line-height: 30px;
+		margin-bottom: 17px;
+		text-align: center;
+		font-weight: 400;
+	}
+	p {
+		width: 40%;
+		font-size: 32px;
+		line-height: 30px;
+		font-weight: 300;
+		text-align: center;
+	}
+	&__href-1 {
+		margin-top: 25px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 150px;
+		height: 70px;
+		color: rgb(255, 255, 255);
+		font-size: 22px;
+		line-height: 82px;
+		background-color: rgb(4, 4, 4);
+		border-radius: 20px;
+		text-decoration: none;
+		transition: all 0.3s linear;
+	}
+	&__href-1:hover {
+		background-color: rgb(167, 167, 167);
+		color: black;
+	}
+}
+.item-wrapper2 {
+	background-color: #f8f8f8;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding-bottom: 50px;
+	h2 {
+		font-size: 32px;
+		line-height: 30px;
+		margin-bottom: 17px;
+		text-align: center;
+		font-weight: 400;
+	}
+	p {
+		width: 40%;
+		font-size: 32px;
+		line-height: 30px;
+		font-weight: 300;
+		text-align: center;
+	}
+	&__href-1 {
+		margin-top: 25px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 150px;
+		height: 70px;
+		color: rgb(255, 255, 255);
+		font-size: 22px;
+		line-height: 82px;
+		background-color: rgb(4, 4, 4);
+		border-radius: 20px;
+		text-decoration: none;
+		transition: all 0.3s linear;
+	}
+	&__href-1:hover {
+		background-color: rgb(167, 167, 167);
+		color: black;
+	}
+}
+.item-img-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 417px;
+	height: 630px;
+	background-color: #f8f8f8;
+	margin-bottom: 20px;
+}
+.item-img-wrapper2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 417px;
+	height: 630px;
+	background-color: #f8f8f8;
+	margin-bottom: 20px;
+}
+
+.prodict-disc-wrapper {
+	margin: 0 auto;
+	width: 40%;
+	margin-top: 100px;
+
+	p:nth-child(1) {
+		box-shadow: 0px 1px 0px rgb(146, 145, 145);
+		font-size: 32px;
+		text-align: center;
+		line-height: 60px;
+		margin-bottom: 20px;
+		font-weight: 400;
+	}
+	p:nth-child(2) {
+		font-weight: 300;
+		text-align: center;
+		font-size: 24px;
+		line-height: 40px;
+		padding-bottom: 50px;
+	}
+}
